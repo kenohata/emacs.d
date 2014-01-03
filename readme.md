@@ -1,6 +1,10 @@
 # @ohataken's emacs.d
 re-created at 4 Jan 2014.
 
+# Cask
+
+this repo requires [Cask](http://cask.github.io/)
+
 # installation
 
     $ cd ~
