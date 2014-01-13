@@ -16,3 +16,11 @@
 (depends-on "smooth-scrolling")
 (depends-on "smartparens")
 (depends-on "flycheck")
+
+(depends-on "ssh-config-mode")
+(depends-on "yaml-mode")
+(depends-on "haml-mode")
+(depends-on "sass-mode")
+(depends-on "scss-mode")
+(depends-on "coffee-mode")
+(depends-on "web-mode")

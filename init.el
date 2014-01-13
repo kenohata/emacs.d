@@ -56,3 +56,4 @@
 (add-to-list 'auto-mode-alist '("\\Rakefile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\Capfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("Cask" . emacs-lisp-mode))
