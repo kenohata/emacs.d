@@ -58,3 +58,6 @@
 (add-to-list 'auto-mode-alist '("\\Capfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("Cask" . emacs-lisp-mode))
+
+(if window-system
+  (tool-bar-mode -1))
