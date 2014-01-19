@@ -12,6 +12,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 (global-auto-revert-mode t)
 (menu-bar-mode -1)
+(load-theme 'sanityinc-tomorrow-eighties t)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 

@@ -24,3 +24,5 @@
 (depends-on "scss-mode")
 (depends-on "coffee-mode")
 (depends-on "web-mode")
+
+(depends-on "color-theme-sanityinc-tomorrow")
