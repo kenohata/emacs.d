@@ -12,6 +12,7 @@
 (fset 'yes-or-no-p 'y-or-n-p)
 (global-auto-revert-mode t)
 (menu-bar-mode -1)
+(tool-bar-mode -1)
 (load-theme 'sanityinc-tomorrow-eighties t)
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -58,6 +59,3 @@
 (add-to-list 'auto-mode-alist '("\\Capfile\\'" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("Cask" . emacs-lisp-mode))
-
-(if window-system
-  (tool-bar-mode -1))
