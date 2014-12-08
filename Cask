@@ -3,6 +3,7 @@
 (depends-on "cask")
 (depends-on "dash")
 (depends-on "expand-region")
+(depends-on "better-defaults")
 (depends-on "magit")
 (depends-on "popwin")
 (depends-on "s")

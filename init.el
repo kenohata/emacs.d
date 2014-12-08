@@ -24,6 +24,9 @@
 (global-set-key (kbd "C-c h") 'helm-mini)
 (global-set-key (kbd "C-c p") 'helm-ls-git-ls)
 
+;; defaults
+(require 'better-defaults)
+
 ;; helm
 (require 'helm-config)
 (helm-mode 1)
